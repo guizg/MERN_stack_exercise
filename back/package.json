@@ -1,0 +1,25 @@
+{
+  "name": "mern_stack_exercise",
+  "version": "1.0.0",
+  "description": "MERN stack (React.js + Node.js + Express + MongoDB) CRUD app for a trainee program exercise",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guizg/MERN_stack_exercise.git"
+  },
+  "author": "guizg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guizg/MERN_stack_exercise/issues"
+  },
+  "homepage": "https://github.com/guizg/MERN_stack_exercise#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25"
+  }
+}
