@@ -5,6 +5,16 @@ Made using a tutorial available at:  https://bezkoder.com/react-node-express-mon
 
 ## How to setup and run it (linux)
 
+Install npm and mongodb:
+
+`sudo apt install npm mongodb` 
+
+Run mongo and exit it's shell:
+
+`mongo`
+
+`exit`
+
 Open a terminal on the project directory and run:
 
 `cd back`
