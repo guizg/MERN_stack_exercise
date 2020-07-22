@@ -10,6 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/guizg/MERN_stack_exercise.git"
   },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "mongodb"
+  ],
   "author": "guizg",
   "license": "ISC",
   "bugs": {

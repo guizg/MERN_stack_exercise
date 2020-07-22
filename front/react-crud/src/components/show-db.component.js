@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import CompanyDataService from "../services/company.service";
 import EmployeeDataService from "../services/employee.service";
-import { Link } from "react-router-dom";
-import { Table, Tag, Space } from 'antd';
+import { Table } from 'antd';
 
 export default class TutorialsList extends Component {
     constructor(props) {
@@ -118,26 +117,6 @@ export default class TutorialsList extends Component {
                 <div>
                   <h4>Funcionários</h4>
                   <Table dataSource={this.state.employees} columns={columns}/>
-
-                  {/* <div>
-                    <label>
-                      <strong>Nome:</strong>
-                    </label>{" "}
-                    {currentCompany.nome}
-                  </div>
-                  <div>
-                    <label>
-                      <strong>Endereço:</strong>
-                    </label>{" "}
-                    {currentCompany.endereco}
-                  </div>
-                  <div>
-                    <label>
-                      <strong>CNPJ:</strong>
-                    </label>{" "}
-                    {currentCompany.cnpj}
-                  </div> */}
-    
                 </div>
               ) : (
                 <div>

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import CompanyDataService from "../services/company.service";
 import EmployeeDataService from "../services/employee.service";
-import { Link } from "react-router-dom";
 
 export default class AddEmployee extends Component {
   constructor(props) {
@@ -131,16 +130,15 @@ export default class AddEmployee extends Component {
 
   render() {
     const companies = this.state.companies;
-    const currentCompany = this.state.currentCompany;
     const currentIndex = this.state.currentIndex;
 
     return (
         <div className="submit-form">
           {this.state.submitted ? (
             <div>
-              <h4>You submitted successfully!</h4>
+              <h4>Funcionário adicionado com sucesso!</h4>
               <button className="btn btn-success" onClick={this.newEmployee}>
-                Add
+                Adicionar outro
               </button>
             </div>
           ) : (
@@ -220,7 +218,7 @@ export default class AddEmployee extends Component {
 
               <div>
               <button onClick={this.saveEmployee} className="btn btn-success">
-                Submit
+                Enviar!
               </button>
               </div>
             </div>

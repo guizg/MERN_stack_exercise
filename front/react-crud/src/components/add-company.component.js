@@ -101,9 +101,9 @@ export default class AddCompany extends Component {
         <div className="submit-form">
           {this.state.submitted ? (
             <div>
-              <h4>You submitted successfully!</h4>
+              <h4>Empresa adicionada com sucesso!</h4>
               <button className="btn btn-success" onClick={this.newCompany}>
-                Add
+                Adicionar outra
               </button>
             </div>
           ) : (
@@ -174,7 +174,7 @@ export default class AddCompany extends Component {
               </div>
   
               <button onClick={this.saveCompany} className="btn btn-success">
-                Submit
+                Enviar!
               </button>
             </div>
           )}
