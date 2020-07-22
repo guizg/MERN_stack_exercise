@@ -12,6 +12,7 @@ Install npm and mongodb:
 Run mongo and exit it's shell:
 
 `mongo`
+
 `exit`
 
 Open a terminal on the project directory and run:
